@@ -35,10 +35,14 @@ class objectModelDetail(ImportExportActionModelAdmin):
     resource_class = objectModelResource
 
 ```
-输出：  
+**输出：**  
 |ID|字段A|字段B|字段C|   
 |---|---|---|---|
-|...|...|...|...|    
+|...|...|...|...| 
+> 替代前：
+> |ID|field_a|field_b|field_c|field_unshow|   
+> |---|---|---|---|---|
+> |...|...|...|...|...|
 
 ## TODO:    
 * 自定义额外字段(custom_extra_fields)添加hook来输出
