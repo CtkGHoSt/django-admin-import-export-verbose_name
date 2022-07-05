@@ -1,0 +1,2 @@
+# django-admin-import-export-verbose_name
+django admin使用django-import-export替代resources.ModelResource类，让导入导出字段名为models的verbose_name
