@@ -21,6 +21,8 @@ from import_export.admin import ImportExportActionModelAdmin
 # from import_export import resources #<= 弃用，使用customResources代替
 from yourApp.resources_base import customResources # 引入resources_base
 
+from yourApp.models import objectModel
+
 
 # class objectModelResource(resources.ModelResource):#<= 弃用，使用customResources代替
 class objectModelResource(customResources):
